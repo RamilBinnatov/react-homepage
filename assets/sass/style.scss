@@ -1,0 +1,66 @@
+@import "../sass/partials/mixins";
+
+#nav-bar-logo {
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        padding-bottom: 7px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-left: 27px;
+        }
+    }
+}
+
+#info {
+    width: 100%;
+    height: 385px;
+    background: whitesmoke;
+    padding-top: 40px;
+
+    .image {
+        height: 264px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+}
+
+.btn {
+    @include learn-button;
+}
+
+#foot-area {
+    margin-top: 35px;
+    background: #434343;
+    color: white;
+    padding-top: 26px;
+
+    .socials{
+        display: flex;
+        flex-direction: column;
+
+        i{
+            margin-bottom: 12px;
+            
+        }
+    }
+}
